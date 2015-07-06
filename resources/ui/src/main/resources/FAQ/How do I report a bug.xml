@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xwikidoc version="1.1">
+  <web>FAQ</web>
+  <name>How do I report a bug</name>
+  <language />
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.DeanWay</creator>
+  <creationDate>1434989611000</creationDate>
+  <parent>FAQ.WebHome</parent>
+  <author>XWiki.sdumitriu</author>
+  <contentAuthor>XWiki.DeanWay</contentAuthor>
+  <date>1435032669000</date>
+  <contentUpdateDate>1434989611000</contentUpdateDate>
+  <version>3.1</version>
+  <title>How do I report a bug</title>
+  <comment />
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content />
+  <object>
+    <name>FAQ.How do I report a bug</name>
+    <number>0</number>
+    <className>FAQCode.FAQClass</className>
+    <guid>f132e24d-d476-4ec7-808f-a2678559c488</guid>
+    <class>
+      <name>FAQCode.FAQClass</name>
+      <customClass />
+      <customMapping />
+      <defaultViewSheet />
+      <defaultEditSheet />
+      <defaultWeb />
+      <nameField />
+      <validationScript />
+      <answer>
+        <customDisplay />
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>answer</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>answer</prettyName>
+        <rows>50</rows>
+        <size>75</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage />
+        <validationRegExp />
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </answer>
+    </class>
+    <property>
+      <answer>You can report a problem you are having with any PhenoTips software by sending an email to [[mailto:support@phenotips.org]], or by posting an issue on our [[GitHub page>>https://github.com/phenotips/phenotips/issues]].&#xd;
+&#xd;
+If you have any software development experience and wish to contribute to PhenoTips by fixing the bug yourself, PhenoTips is an open-source project and your help is welcome. Please refer to our [[Developer Guide>>DevGuide.WebHome]] and make sure to read the section on [[Contributing>>DevGuide.Contributing]].&#xd;
+</answer>
+    </property>
+  </object>
+</xwikidoc>

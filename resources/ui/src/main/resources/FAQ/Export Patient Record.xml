@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xwikidoc version="1.1">
+  <web>FAQ</web>
+  <name>Export Patient Record</name>
+  <language />
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.DeanWay</creator>
+  <creationDate>1434725301000</creationDate>
+  <parent>FAQ.How can I Export Patient Records</parent>
+  <author>XWiki.tmarathe</author>
+  <contentAuthor>XWiki.sdumitriu</contentAuthor>
+  <date>1435177391000</date>
+  <contentUpdateDate>1434841538000</contentUpdateDate>
+  <version>21.2</version>
+  <title>How do I export a patient record as a PDF</title>
+  <comment />
+  <minorEdit>true</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>Patient records (including the pedigree and growth charts) can be exported as PDF documents.&#xd;
+&#xd;
+1. Go to the patient record you wish to export&#xd;
+1. Click on //More Actions// > //Export PDF//</content>
+  <object>
+    <name>FAQ.Export Patient Record</name>
+    <number>0</number>
+    <className>FAQCode.FAQClass</className>
+    <guid>f5b88728-ef93-4eaa-9c13-1133ffe48e79</guid>
+    <class>
+      <name>FAQCode.FAQClass</name>
+      <customClass />
+      <customMapping />
+      <defaultViewSheet />
+      <defaultEditSheet />
+      <defaultWeb />
+      <nameField />
+      <validationScript />
+      <answer>
+        <customDisplay />
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>answer</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>answer</prettyName>
+        <rows>50</rows>
+        <size>75</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage />
+        <validationRegExp />
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </answer>
+    </class>
+    <property>
+      <answer>Patient records (including the pedigree and growth charts) can be exported as PDF documents.&#xd;
+&#xd;
+1. Go to the patient record you wish to export.&#xd;
+1. On the top right of the page, click on //More Actions// > //Export PDF//</answer>
+    </property>
+  </object>
+</xwikidoc>

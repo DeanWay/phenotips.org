@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xwikidoc version="1.1">
+  <web>FAQ</web>
+  <name>supported_browsers</name>
+  <language />
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.DeanWay</creator>
+  <creationDate>1434985321000</creationDate>
+  <parent>FAQ.WebHome</parent>
+  <author>XWiki.tmarathe</author>
+  <contentAuthor>XWiki.sdumitriu</contentAuthor>
+  <date>1435159823000</date>
+  <contentUpdateDate>1435032975000</contentUpdateDate>
+  <version>5.1</version>
+  <title>Which browsers does PhenoTips support</title>
+  <comment />
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content />
+  <object>
+    <name>FAQ.supported_browsers</name>
+    <number>0</number>
+    <className>FAQCode.FAQClass</className>
+    <guid>fea8f8f9-cc6c-4ca8-8f0d-7c728ddec9f7</guid>
+    <class>
+      <name>FAQCode.FAQClass</name>
+      <customClass />
+      <customMapping />
+      <defaultViewSheet />
+      <defaultEditSheet />
+      <defaultWeb />
+      <nameField />
+      <validationScript />
+      <answer>
+        <customDisplay />
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>answer</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>answer</prettyName>
+        <rows>50</rows>
+        <size>75</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage />
+        <validationRegExp />
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </answer>
+    </class>
+    <property>
+      <answer>PhenoTips supports all **modern** browsers:&#xd;
+&#xd;
+* Mozilla Firefox (31+)&#xd;
+* Google Chrome and Chromium&#xd;
+* Opera (12+)&#xd;
+* Safari (6.2+)&#xd;
+* Internet Explorer 9+&#xd;
+&#xd;
+We strongly encourage using Mozilla Firefox or Google Chrome, since these are the browsers which we're testing with most often.&#xd;
+&#xd;
+Internet Explorer 8 and earlier are not supported.&#xd;
+</answer>
+    </property>
+  </object>
+</xwikidoc>

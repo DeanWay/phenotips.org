@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xwikidoc version="1.1">
+  <web>FAQ</web>
+  <name>What is PhenoTips</name>
+  <language />
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.tmarathe</creator>
+  <creationDate>1434996793000</creationDate>
+  <parent>FAQ.WebHome</parent>
+  <author>XWiki.tmarathe</author>
+  <contentAuthor>XWiki.DeanWay</contentAuthor>
+  <date>1435177397000</date>
+  <contentUpdateDate>1434997833000</contentUpdateDate>
+  <version>12.2</version>
+  <title>What is PhenoTips</title>
+  <comment />
+  <minorEdit>true</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <content />
+  <object>
+    <name>FAQ.What is PhenoTips</name>
+    <number>0</number>
+    <className>FAQCode.FAQClass</className>
+    <guid>26a7c07a-b17e-4fe1-bd13-c54a80495218</guid>
+    <class>
+      <name>FAQCode.FAQClass</name>
+      <customClass />
+      <customMapping />
+      <defaultViewSheet />
+      <defaultEditSheet />
+      <defaultWeb />
+      <nameField />
+      <validationScript />
+      <answer>
+        <customDisplay />
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>answer</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>answer</prettyName>
+        <rows>50</rows>
+        <size>75</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage />
+        <validationRegExp />
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </answer>
+    </class>
+    <property>
+      <answer>PhenoTips is a customizable, web-based open source tool for collecting and analyzing phenotypic information for patients with genetic disorders. Its features include:&#xd;
+&#xd;
+* Standardized phenotyping using the [[Human Phenotype Ontology (HPO)>>http://human-phenotype-ontology.org/]]&#xd;
+* Error-tolerant, predictive search of the ontology&#xd;
+* Real-time evaluation of the informational value of the phenotypic description via the [[Monarch Phenotype Profile Analysis>>http://monarchinitiative.org/]]&#xd;
+* Powerful built-in pedigree editor&#xd;
+* Measurements and growth curves&#xd;
+* Diagnosis assistance based on the entered data&#xd;
+</answer>
+    </property>
+  </object>
+</xwikidoc>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xwikidoc version="1.1">
+  <web>FAQCode</web>
+  <name>FAQSearch</name>
+  <language />
+  <defaultLanguage />
+  <translation>0</translation>
+  <creator>XWiki.DeanWay</creator>
+  <creationDate>1434485052000</creationDate>
+  <parent>FAQ.WebHome</parent>
+  <author>XWiki.DeanWay</author>
+  <contentAuthor>XWiki.DeanWay</contentAuthor>
+  <date>1393322274000</date>
+  <contentUpdateDate>1393322227000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Search FAQs</title>
+  <comment>Install extensoin [org.xwiki.platform:xwiki-platform-faq-ui-5.4.5]</comment>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>true</hidden>
+  <content>{{include reference="XWiki.SearchCode"/}}
+
+{{velocity output="false"}}
+#if ($searchEngine == 'solr')
+  ## Customize the Solr Search UI for the FAQ application.
+  #set ($solrConfig = {
+    'queryFields': 'title^3 property.FAQCode.FAQClass.answer',
+    'facetFields': ['creator', 'creationdate', 'author', 'date', 'mimetype', 'attauthor', 'attdate', 'attsize'],
+    'filterQuery': [
+      'type:DOCUMENT',
+      "wiki:$xcontext.database",
+      "space_exact:$doc.space",
+      'class:FAQCode.FAQClass'
+    ]
+  })
+#end
+{{/velocity}}
+
+{{velocity}}
+{{include reference="$searchPage"/}}
+{{/velocity}}</content>
+</xwikidoc>
